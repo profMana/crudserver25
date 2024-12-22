@@ -1,0 +1,7 @@
+Ese_02_crud_server
+DB
+*.txt
+
+.env
+node_modules
+package-lock.json
