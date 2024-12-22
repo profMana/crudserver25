@@ -4,7 +4,7 @@ import _fs from "fs";
 import { MongoClient, ObjectId } from "mongodb";
 import _express from "express";
 import _cors from "cors";
-import _dotenv from "dotenv";
+import dotenv from "dotenv";
 //import _bodyParser from "body-parser";
 
 
@@ -12,7 +12,7 @@ import _dotenv from "dotenv";
 dotenv.config({ path: ".env" });
 const PORT = parseInt(process.env.PORT)
 const DBNAME = process.env.DBNAME
-const connectionString:string = process.env.connectionStringLocal;
+const connectionString:string = process.env.connectionStringAtlas;
 const app = _express();
 
 
